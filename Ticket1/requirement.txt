@@ -1,0 +1,44 @@
+Task: Implement a User Authentication System
+
+Requirements:
+Our project currently lacks user authentication, and it's crucial to secure certain parts of 
+the application. Your task is to implement a user authentication system using JWT (JSON Web Tokens) 
+and integrate it into both the front-end (React) and back-end (Node.js and Express).
+
+Steps:
+
+1. Back-End: Node.js and Express
+
+- Create API routes for user registration, login, and logout.
+- Use a MongoDB database to store user information such as username, email, and hashed passwords.
+- Implement JWT for token-based authentication. Users should receive a token upon successful login.
+
+2. Front-End: React
+
+- Create UI components for user registration, login, and logout.
+- Implement form validations for registration and login forms.
+- Use React Context or Redux to manage user authentication state globally.
+- Ensure that components are conditionally rendered based on the user's authentication status.
+
+3. Integration: Connecting Front-End and Back-End
+
+- Make API calls from the React application to register, log in, and log out users.
+- Store the JWT token securely on the client side (consider using secure HTTP-only cookies).
+- Implement middleware on the server side to verify the authenticity of incoming requests.
+
+4. Bonus Points:
+
+- Add features like password reset and email verification.
+- Enhance the UI with feedback messages for successful and unsuccessful authentication attempts.
+- Implement role-based access control if our project requires different levels of access for users.
+
+# Guidelines:
+
+1. Collaborate with other team members to clarify any doubts or seek assistance.
+2. Make use of best practices for security, code structure, and documentation.
+3. Regularly commit your code to our version control system (Git) and create meaningful commit messages.
+4. Keep me updated on your progress and feel free to schedule regular checkpoints for feedback.
+
+This task encompasses both front-end and back-end development, providing a comprehensive learning experience. 
+If you encounter any challenges or have questions, don't hesitate to reach out. Good luck, and I look forward 
+to seeing your implementation!
