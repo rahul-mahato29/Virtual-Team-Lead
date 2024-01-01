@@ -3,7 +3,7 @@ const app = express();
 const port = 3000;
 
 const mongoose = require('mongoose');
-const mongoURI = 'mongodb+srv://admin:rahul2901@cluster0.63mtkv0.mongodb.net/Ticket1'; 
+const mongoURI = 'mongodb+srv://admin:rahul2901@cluster0.63mtkv0.mongodb.net/'; 
 
 //linking route files to the main server
 const registrationRoutes = require('./routes/registration');
@@ -23,8 +23,6 @@ db.on('error', console.error.bind(console, 'MongoDB connection error:'));
 db.once('open', () => {
   console.log('Connected to MongoDB');
 });
-
-
 
 
 app.get("/", (req, res) => {
