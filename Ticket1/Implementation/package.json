@@ -1,9 +1,8 @@
 {
-  "name": "Implementation",
+  "name": "implementation",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
+  "main": "index.js",  "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
