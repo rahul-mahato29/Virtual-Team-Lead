@@ -3,7 +3,7 @@ const router = express.Router();
 
 // logout route
 router.post('/', (req, res) => {
-  // Implement user registration logic here
+  // Implement user logout logic here
   res.send('User logout endpoint');
 });
 
