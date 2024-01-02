@@ -3,7 +3,7 @@ const app = express();
 const port = 3000;
 
 const mongoose = require('mongoose');
-const mongoURI = 'mongodb+srv://admin:rahul2901@cluster0.63mtkv0.mongodb.net/'; 
+const mongoURI = 'Database-link'; 
 
 //linking route files to the main server
 const registrationRoutes = require('./routes/registration');
